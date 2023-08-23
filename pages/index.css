@@ -1,0 +1,81 @@
+.inner-conainter {
+    border: 1px white solid;
+    border-radius: 5px;
+    min-width: 400px;
+    padding: 20px;
+}
+.search-bar svg {
+    height: 15px;
+    width: 15px;
+    margin: 0 8px;
+    fill: rgb(136, 136, 136);
+}
+
+.search-bar {
+    border: 1px solid #ddd;
+    width: 95%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 8px;
+    
+}
+.search-bar input {
+    border: none;
+    width: 95%;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+body {
+    background-color: rgb(23, 76, 108);
+}
+
+.add-item-container {
+    background-color: white;
+    height: 100px;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    align-items: flex-end;
+    padding-bottom: 30px;
+}
+
+.add-item-container button {
+    height: 43px ;
+}
+
+.todo-container {
+    background-color: white;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    min-height: 500px;
+    margin-bottom: 8px;
+}
+
+#incomplete-tasks {
+    overflow-y: scroll;
+    margin-top: 8px;
+}
+
+.completed-container {
+    background-color: white;
+    height: 200px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    min-height: 500px;
+}
+
+#completed-task {
+    overflow-y: scroll;
+    margin-top: 8px;
+}
